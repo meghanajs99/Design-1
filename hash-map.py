@@ -12,6 +12,7 @@ class MyHashMap:
         if key in self.d:
             self.d[key]=value
         else:
+            
             self.d[key]=value
             
     def get(self, key: int) -> int:
